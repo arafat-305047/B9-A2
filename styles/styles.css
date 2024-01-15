@@ -1,1 +1,142 @@
 /* section-1 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.sec-2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-11{
+    width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+}
+.sec-22{
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+    display: none;
+}
+.sec-211{
+    list-style: none;
+    display: inline-flex;
+padding: 10px 0px;
+justify-content: center;
+align-items: center;
+gap: 44px;
+   
+
+}
+nav li{
+    gap: 10px;
+}
+nav li a{
+
+    text-decoration: none;
+    gap: 10px;
+}
+.sec-12{
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+.sp1{
+    color: #FF5400;
+font-size: 36px;
+font-weight: 800;
+text-align: center;
+
+}
+.sec-21{
+    color:  #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sec-212{
+    color: #FF5400;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+
+/* banner */
+.search{
+    width: 15px;
+height: 15px;
+flex-shrink: 0;
+text-align: center;
+}
+.banner{
+    
+   background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 600px;
+}
+.ban{
+  text-align: center;
+  padding-top: 150px;
+}
+.banner-3{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-left: 400px;
+
+
+}
+.banner-1{
+    color: #FFF;
+font-size: 64px;
+
+font-weight: 800;
+margin-bottom: 20px;
+
+}
+.banner-2{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px;
+
+}
+.banner-4{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border-style: none;
+text-align: center;
+}
+.banner-5{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-style: none;
+text-align: center;
+padding-bottom: 5px;
+}
