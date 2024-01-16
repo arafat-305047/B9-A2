@@ -467,9 +467,7 @@ font-weight: 800;
 text-align: center;
 font-family: Mulish;
 font-size: 40px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 margin-bottom: 30px;
 }
 .dubai{
@@ -499,6 +497,10 @@ margin-bottom: 30px;
 
     height: 300px;
     margin-bottom: 50px;
+}
+.sec-52{
+    text-align: left;
+    
 }
 .earn{
     color: #FFF;
@@ -567,6 +569,208 @@ font-size: 16px;
 font-weight: 300;
 padding: 100px;
 
+}
+
+/* media query */
+
+
+    
+@media screen and (max-width: 600px) {
+    *{
+        width:100%
+    }
+
+    .sec-211{
+        display: none;
+    }
+    .sec-22{
+        display: inline-flex;
+    }
+    .sec{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    .sec-1{
+        font-size: 20px;
+    }
+    .sec-11{
+        width: 32.724px;
+height: 36.516px;
+    }
+    .sp1{
+        font-size: 21.543px;
+    }
+    .sec-12{
+        font-size: 21.543px;
+    }
+
+    .banner{
+       background-position: cover;
+    margin-left: 10px;
+       
+    }
+    .banner-1{
+        font-size: 26px;
+    }
+    .banner-2{
+        font-size: 18px;  
+    }
+   .banner-3{
+    display: flex;
+width: 287px;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+    flex-direction: column;
+    margin-left: 130px;
+   }
+   .banner-4{
+    width: 255px;
+height: 52px;
+background-size: 100%;
+   }
+   .banner-5{
+    width: 255px;
+    height: 52px;
+   }
+
+    .section-2{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .section-21{
+        margin-left: 20px;
+    }
+    .section-22{
+        font-size: 20px;
+    }
+    .section-23{
+        font-size: 14px;
+    }
+    .section-24{
+        font-size: 14px;
+    }
+    .section-25{
+        font-size: 14px;
+    }
+    .section-26{
+        width: 174px;
+height: 52px;
+flex-shrink: 0;
+    }
+    .section-22{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .section-33{
+        flex-direction: column;
+    }
+    .section-41{
+        flex-direction: column;
+    }
+    .section-43{
+        background-position: left;
+        justify-content: left;
+    }
+    .section-5{
+        flex-direction: column;
+    }
+    .bonus-1{
+        flex-direction: column;
+        flex-flow: column;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        max-width: 100%;
+    }
+    .section-31{
+        color: #131318;
+text-align: center;
+
+font-size: 30px;
+
+font-weight: 800;
+
+    }
+    .section-32{
+        font-size: 20px;
+    }
+    .section-33{
+        margin-left: 30px;
+    }
+    .s-41{
+        text-align: center;
+font-size: 40px;
+margin-bottom: 20px;
+    }
+    .s-42{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .sec-41{
+        width: 570px;
+height: 289px;
+text-align: left;
+margin-left: 20px;
+    }
+    .section-42{
+        width: 570px;
+        height: 289px;
+        text-align: left;
+        margin-left: 20px;  
+    }
+    .section-43{
+        margin-left: 20px; width: 570px;
+        height: 289px;
+        text-align: left;
+    }
+    .section-51{
+        margin-left: 20px;
+        width: 530px;
+height: 400px;
+    }
+    .sec-52{
+        text-align: left;
+
+    }
+    .sec-57{
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    .earn{
+        font-size: 15px;
+        
+    }
+    .share{
+        margin-left: 65px;
+    }
+    .sharing{
+        margin-right: 20px;
+        background-size: cover;
+        margin-left: 10px;
+    }
+    .footer{
+        width: auto;
+    }
+    .footer-2{
+  width: 80px;
+  height: 50px;
+  margin-left: 250px;
+  
+    }
+    .foot-3{
+        font-family: Inter;
+font-size: 20px;
+
+margin-left: 40px;
+text-align: left;
+    }
 }
 
 
