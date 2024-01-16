@@ -577,7 +577,7 @@ padding: 100px;
     
 @media screen and (max-width: 600px) {
     *{
-        width:100%
+        width:95%%
     }
 
     .sec-211{
@@ -770,6 +770,21 @@ font-size: 20px;
 
 margin-left: 40px;
 text-align: left;
+    }
+    .sri{
+        width: 573px;
+        height: 300px;
+        margin-left: 0;
+    }
+    .ame{
+        width: 573px;
+        height: 300px;
+        margin-left: 0;
+    }
+    .kas{
+        width: 573px;
+        height: 300px;
+        margin-left: 0;   
     }
 }
 
